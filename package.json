@@ -1,0 +1,14 @@
+{
+  "name": "sass-watcher-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vdelafonchais@itnetwork.fr",
+  "license": "MIT",
+  "scripts": {
+    "watch": "sass --watch assets/sass:assets/css --charset",
+    "build": "sass --style=compressed assets/sass:assets/css --charset"
+  },
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
+}
